@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Gives you limited lives with a set grace period",
+    "min_format": 88,
+    "max_format": 88
+  }
+}
