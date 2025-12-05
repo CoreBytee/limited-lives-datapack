@@ -1,4 +1,4 @@
-# Setup Scoreboards
+# Run setup
 function limited_lives:setup
 
 # Load Timers

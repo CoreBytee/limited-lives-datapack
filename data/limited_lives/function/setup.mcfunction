@@ -20,4 +20,9 @@ scoreboard objectives add limited_lives.settings dummy
 execute unless score setup_complete limited_lives.settings = 1 limited_lives.constants run scoreboard players set zombies_are_trapped limited_lives.settings 1
 scoreboard players set setup_complete limited_lives.settings 1
 
+# Setup trap
+fill 1 -61 -1 -1 -63 1 minecraft:end_gateway{Age:200} replace
+fill 2 -60 -2 -2 -64 2 minecraft:bedrock outline
+
+# Respawn instantly
 gamerule doImmediateRespawn true
