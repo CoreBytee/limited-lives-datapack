@@ -18,6 +18,7 @@ scoreboard players set 0 limited_lives.constants 0
 # Set up settings
 scoreboard objectives add limited_lives.settings dummy
 execute unless score setup_complete limited_lives.settings = 1 limited_lives.constants run scoreboard players set zombies_are_trapped limited_lives.settings 1
+execute unless score setup_complete limited_lives.settings = 1 limited_lives.constants run scoreboard objectives setdisplay list limited_lives.lives
 scoreboard players set setup_complete limited_lives.settings 1
 
 # Setup trap
